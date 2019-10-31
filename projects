@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<title>Daniela Martinez - Projects</title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+	body {
+	background-color: #FDFEFE;
+	margin: 0;
+	font-family: Courier;
+	color: white;
+	}
+
+	.topnav {
+	overflow: hidden;
+	background-color: #FDFEFE;
+	}
+
+	.topnav a {
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	}
+
+	.topnav a:hover {
+	background-color: #FADBD8;
+	color: black;
+	}
+
+	.topnav a.active {
+	background-color: #F1948A;
+	color: white;
+	}
+
+	img {
+		border-radius: 50%;
+	}
+
+		* {
+	box-sizing: border-box;
+	}
+
+	/* Style the header */
+	header {
+	background-color: #34495E;
+	padding: 30px;
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	}
+
+	/* Style the navigation menu */
+	nav {
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	background: #ccc;
+	padding: 20px;
+	}
+
+	/* Style the list inside the menu */
+	nav ul {
+	list-style-type: none;
+	padding: 0;
+	}
+
+	/* Style the content */
+	article {
+	-webkit-flex: 3;
+	-ms-flex: 3;
+	flex: 3;
+	background-color: #f1f1f1;
+	padding: 10px;
+	color: black;
+	}
+
+	/* Style the footer */
+	footer {
+	background-color: #F1948A;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	}
+
+	/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+	@media (max-width: 600px) {
+	section {
+		-webkit-flex-direction: column;
+		flex-direction: column;
+	}
+	}
+</style>
+<body>
+
+<div class="topnav">
+		<a href="#home">Home</a>
+		<a href="#news">Resume</a>
+		<a class="active" href="#contact">Projects</a>
+		<a href="#about">Contact</a>
+	  </div>
+	  	  
+	<header>
+				<div class="header">
+						<center><h2>My Projects</h2></center>
+				 </div>
+    </header>
+		  
+	  <article>
+		<center><h1>NASA Micro-g Next Surface Autonomous Vehicle for Emergency Rescue Challenge</h1>
+		<p>Developed a design and tehcnical report for a autonomous surface vehicle in a marintine enviroment</p>
+        <p>Was main point of contact between NASA and San Francisco State University</p>
+        <p>Managed multiple teams including: mechanical, electrical, outreach and administrative team</p>
+
+		<h1>Miss Central California Website</h1>
+		<p> Created a website to promote competing in the Miss Central California Pageant</p>
+		<p> Website consisted of a about me, information about the pageant, purcharsing tickets, and sponsorship information</p>
+		<p> I used HTML, CSS, and Bootstrap to develop this website from scratch</p>
+        <a href="	https://danielaamartinez.github.io/MissCentralCa.html">To view website follow this link</a></center>
+    </article>
+    </section>
+
+	<footer>
+			<a href="https://www.linkedin.com/in/danielaamartinez/">LinkedIn</a>
+			| 
+			<a href="https://www.facebook.com/lelamtz">Facebook</a>
+			|
+			<a href="https://www.instagram.com/realdanielamartinez/">Instgram</a>
+	</footer>
+
+
+
+</body>
+</html>
